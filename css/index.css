@@ -1,0 +1,178 @@
+/* Global */
+* {margin: 0; padding: 0;}
+* {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+/* header */
+#main-nav {
+    background-color: rgb(15, 15, 15);
+    height: 8em;
+    text-align: right;
+}
+.logo-holder {
+    float: left;
+    padding-left: 12px;
+    text-align: left;
+}
+.logo-img{width: 21%;}
+#main-menu{list-style: none;}
+.main-menu-item{
+    display: inline-block;
+}
+.main-menu-item a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(151, 54, 54);
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 1em;
+}
+.main-menu-item a:hover{background-color: rgb(177, 20, 41);}
+
+/* Section */
+.cover {
+    background: url(../image_video/backgroundSection.png);
+    background-position: center;
+    background-size: cover;
+    color:aliceblue;
+    padding: 100px 20%;
+}
+.cover-dimmer{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+    margin-top: -10px;
+}
+.button-cover {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(151, 54, 54);
+    color: white;
+    margin-top: 1rem;
+}
+.button-cover a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.button-coverA {
+    margin-top: -100rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(151, 54, 54);
+    color: white;
+}
+.button-coverA a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+/* Article */
+.services {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+}
+.subheader{
+    padding-bottom: 5rem;
+}
+.subheaderO{
+    padding-bottom: 28rem;
+}
+.subheaderA{
+    padding-bottom: 1.5rem;
+}
+.service {
+    float: left;
+    width: 29%;
+    border: solid 1px rgb(0, 0, 0);
+    margin: 1%;
+    padding: 1%;
+}
+h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.img-usluga{
+    width: 70%;
+}
+.button-service{
+    padding: .5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: rgb(151, 54, 54);
+    color: white;
+    border-radius: 4px;
+    margin-top: .8rem;
+}
+.button-service a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.serv-descr{
+    margin: .8rem 0;
+    text-align:justify
+}
+.clearfloat{
+    clear: both;
+}
+/* FOOTER */
+footer {
+    background-color: black;
+    padding: 3rem;
+}
+.footer-table {
+    width: 80%;
+    margin: auto;
+    border: 0;
+}
+.footer-table td {
+    color: white;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top;
+}
+.logo-bottom {
+    width: 150px;
+}
+.slogan-bottom {
+    margin: -30px 0 0 76px;
+    font-size: .7rem;
+}
+.bigger {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-table td a {
+    text-decoration: none;
+    color: rgb(151, 54, 54);
+}
+.footer-table td a:hover{
+    color: rgb(177, 20, 41);
+}
+/* NEXT PAGE */
+.services_article {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    text-align: center;
+}
+.services_article-img {
+    width: 80%;
+    margin: 0;
+    padding: 1rem;
+}
